@@ -5,11 +5,11 @@ package de.daug.semanticchess;
  */
 public class Configurations{
 	//Stanford Core NLP Web Server
-	public static final String WEB_SERVER = "http://139.18.2.39";
+	public static final String WEB_SERVER = "http://corenlp.corenlp";
 		
 	//Database
-	public static final String DB = "jdbc:virtuoso://localhost:1111";
-	public static final String DB_SHORT = "localhost:1111";
+	public static final String DB = "jdbc:virtuoso://db:1111";
+	public static final String DB_SHORT = "db:1111";
 	public static final String DB_USER = "dba";
 	public static final String DB_PASSWORD = "dba";
 	public static final String DB_GRAPH = "http://www.example.com/";
